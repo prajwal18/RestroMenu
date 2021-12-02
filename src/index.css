@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --blue: hsl(231, 30%, 47%);
+
+    --bight-blue: hsl(202, 76%, 29%);
+    --soft-blue: hsl(195, 74%, 62%);
+    --light-red: hsl(348, 100%, 68%);
+    --lime-green: hsl(145, 69%, 35%);
+    --soft-orange: hsl(43, 84%, 65%);
+
+    --very-dark-blue: hsl(225, 13%, 88%);
+    --dark-blue: hsl(0, 0%, 23%);
+    --desaturated-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 320px;
+    
+    padding: 20px;
+    position: relative;
+
+    background: var(--very-dark-blue);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+h1 span {
+    display: block;
+    color: var(--pale-blue);
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+main {
+    margin-bottom: 50px;
+    width: 1000px;
+    justify-self: center;
+}
+
+/* Section.Menu the main container for everything on the website*/
+section.menu {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+
+
+
+
+
+
+/*Nav Bar (more like the header. The Header portion of the website with the menu title and categories)*/
+section.menu nav {
+    background: var(--dark-blue);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr auto;
+}
+
+/*Div.Title contains the main title and image of the website*/
+section.menu nav div.title{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 1.5em 1.5em 3em;
+    gap: 30px;
+    background: var(--blue);
+    border-radius: 10px;
+}
+
+section.menu nav div.title img.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+/* ----------------------- DIV TITLE COMPLETE ----------------------- */
+
+
+/* Contains the button in the nav bar to select food options */
+section.menu nav div.btn-container {
+    padding: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1em;
+}
+
+section.menu nav div.btn-container button.filter-btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: var(--pale-blue);
+}
+
+section.menu nav div.btn-container button.filter-btn:hover,
+section.menu nav div.btn-container button.filter-btn.on
+{
+    color: #fff;
+}
+
+
+/* Select and Search for further filter options */
+div.selectAndSearch {
+    padding:0em 1em 1em;
+    display: flex;
+    gap: 1em;
+}
+div.selectAndSearch select.selectCategory {
+    width: 15rem;
+    padding: 5px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+div.selectAndSearch button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background: var(--soft-orange);
+}
+div.selectAndSearch button:hover{
+    background: hsl(43, 47%, 38%);
+    color: white;
+}
+
+
+/* -------------- NAV BAR COMPLETED--------------- */
+
+
+
+
+
+
+
+/* Menu (The place where the menu items are displayed) */
+section.menu div.section-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+section.menu div.section-center article.menu-item {
+    display: grid;
+    grid-template-rows: 2em 1fr;
+    background: var(--light-red) url('./stylepics/food-pattern.png') top -2em center;
+    background-size: 20em;
+    border-radius: 10px;
+}
+section.menu div.section-center article.menu-item:nth-child(even) {
+    background-color: var(--soft-blue);
+    background-position: top -4em center;
+}
+
+section.menu div.section-center article.menu-item > div.container {
+    display: grid;
+    gap: 1em;
+    background-color: var(--bight-blue);
+    padding: 1em;
+    border-radius: 10px;
+}
+section.menu div.section-center article.menu-item:nth-child(even) > div.container {
+    background-color: var(--lime-green);
+}
+
+section.menu div.section-center img{
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 200px;
+    border-radius: 2px;
+}
+section.menu div.section-center article.menu-item div.container div.item-info{
+    display: grid;
+    gap: 0.5em;
+    border-top: 3px solid wheat;
+    padding-top: 1em;
+}
+
+section.menu div.section-center article.menu-item div.container div.item-info header {
+    display: grid;
+    gap: 10px;
+    padding-bottom: 10px;
+    grid-template-columns: 3fr 1fr;
+}
+section.menu div.section-center header > h4 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+section.menu div.section-center  header > h4.price {
+    font-weight: 300;
+}
+
+
+section.menu div.section-center article.menu-item div.container div.item-info p.item-text {
+    width: 80%;
+    text-transform: capitalize;
+    display: grid;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+/*------- MENU COMPLETE---------*/
+
+
+
+
+
+/* WOrking For smaller screens */
+
+@media screen and (max-width: 1100px) {
+    main{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        width: 600px;
+    }
+    section.menu div.section-center {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 400px;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    section.menu div.section-center {
+        grid-template-columns: 1fr;
+    }
+
+    main section.menu  nav div.title img.logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    section.menu nav div.title{
+        gap: 10px;
+        padding: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    main{
+        width: 350px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    div.selectAndSearch select.selectCategory {
+        min-width: 60%;
+    }
+
+}
+
+
+
