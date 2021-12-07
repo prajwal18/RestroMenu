@@ -11,14 +11,17 @@ function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories, setCategories] = useState(allCategories);
   const [subCategories, setSubCategories] = useState(allSubCategories);
+  const [menuCategories, setMenuCategories] = useState('all');
 
 
   const filterItems = (category) => {
     if(category === 'all'){
+      setMenuCategories('all');
       setMenuItems(items);
       setSubCategories(allSubCategories);
       return;
     }
+    setMenuCategories(category);
     const newItem = items.filter( (item) => item.category === category);
     const newSubCategories = ['all',...new Set(newItem.map( (item) => item.subCategory ))];
     setMenuItems(newItem);
@@ -47,7 +50,7 @@ function App() {
           categories={categories} subCategories={subCategories}/>
         </nav>
 
-        <Menu items={menuItems} />
+        <Menu items={menuItems} menuCategories={menuCategories} />
       </section>
     </main>
   );

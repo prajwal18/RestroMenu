@@ -215,7 +215,7 @@ section.menu div.section-center  header > h4.price {
 }
 
 
-section.menu div.section-center article.menu-item div.container div.item-info p.item-text {
+section.menu div.section-center article.menu-item div.container div.item-info div.item-text {
     width: 80%;
     text-transform: capitalize;
     display: grid;

@@ -1,7 +1,27 @@
 import React from 'react';
 
-const Menu = ({items}) => {
+const Menu = ({items, menuCategories}) => {
 
+  if(menuCategories === 'all'){
+    items.sort( (a,b) => {
+      if(a.id < b.id){
+        return 1;
+      } else if (a.id > b.id){
+        return -1;
+      }
+      return 0;
+    });
+  }
+  else {
+    items.sort( (a,b) => {
+      if(a.id < b.id){
+        return -1;
+      } else if (a.id > b.id){
+        return 1;
+      }
+      return 0;
+    });
+  }
 
   return (
     <div className='section-center'>
@@ -24,9 +44,9 @@ const Menu = ({items}) => {
 
 
               
-                <p className='item-text'>
+                <div className='item-text'>
                   {descInfo.map((item,id) => <p key={id}>{item}</p>)}
-                </p>
+                </div>
 
                 {/*<p className='item-text'>{desc}</p>*/}
               </div>
