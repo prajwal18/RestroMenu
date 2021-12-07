@@ -9,7 +9,7 @@ const menu = [
   },
   {
     id: 2,
-    title: 'Omlette Toast',
+    title: 'Omelette Toast',
     category: 'breakfast',
     subCategory: 'light breakfast',
     price: 70,
@@ -46,9 +46,9 @@ const menu = [
   },
   {
     id: 6,
-    title: 'Double Masala omlette',
+    title: 'Double Masala Omelette',
     category: 'lunch',
-    subCategory: 'masala omlette',
+    subCategory: 'masala Omelette',
     price: 80,
     desc: null,
   },
