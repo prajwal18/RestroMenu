@@ -103,6 +103,7 @@ section.menu nav div.title img.logo {
 section.menu nav div.btn-container {
     padding: 1em;
     display: flex;
+    flex-flow: wrap row;
     justify-content: left;
     align-items: center;
     gap: 1em;
