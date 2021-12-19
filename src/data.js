@@ -1,5 +1,13 @@
 const menu = [
   {
+    id: 23,
+    title: `Today's Special`,
+    category: `Today's Special`,
+    subCategory: 'Daily Special',
+    price: null,
+    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+  },
+  {
     id: 1,
     title: 'Samosa Tarkari',
     category: 'breakfast',
