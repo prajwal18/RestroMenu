@@ -202,7 +202,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Lachachi: Rs 200,`,
   },
   {
     id: 24,
@@ -210,7 +210,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Biryani: Rs 200`,
   },
   {
     id: 25,
@@ -218,7 +218,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Shawarma: Rs 200`,
   },
   {
     id: 26,
@@ -226,7 +226,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Chopsey: Rs 180`,
   },
   {
     id: 27,
@@ -234,7 +234,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Biryani: Rs 200`,
   },
   {
     id: 28,
@@ -242,7 +242,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken: Rs 130,,Veg: Rs 110`,
+    desc: `Chicken Burger: Rs 200`,
   },
 
 ];
