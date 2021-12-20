@@ -28,6 +28,11 @@ const Menu = ({items, menuCategories}) => {
       {items.map( (menuItems) => {
         const {id, title, category, price, desc} = menuItems;
         let descInfo = [''];
+
+        if(category == `Today's Special` && menuCategories == 'all'){
+          return;
+        }
+
         if(desc != null){
           descInfo = desc.split(',,');
         }
