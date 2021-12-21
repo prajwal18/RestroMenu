@@ -35,7 +35,7 @@ const menu = [
   },
  
   {
-    id: 6,
+    id: 5,
     title: 'Double Masala Omelette',
     category: 'lunch',
     subCategory: 'masala Omelette',
@@ -48,7 +48,7 @@ const menu = [
 
 
   {
-    id: 7,
+    id: 6,
     title: 'Steam MoMo',
     category: 'snacks',
     subCategory: 'momo',
@@ -56,7 +56,7 @@ const menu = [
     desc: `Chicken: Rs 120,,Veg: Rs 100`,
   },
   {
-    id: 8,
+    id: 7,
     title: 'Jhol MoMo',
     category: 'snacks',
     subCategory: 'momo',
@@ -64,7 +64,7 @@ const menu = [
     desc: `Chicken: Rs 150,,Veg: Rs 120`,
   }, 
   {
-    id: 9,
+    id: 8,
     title: 'Chilly MoMo',
     category: 'snacks',
     subCategory: 'momo',
@@ -72,7 +72,7 @@ const menu = [
     desc: `Chicken: Rs 150,,Veg: Rs 120`,
   },
   {
-    id: 10,
+    id: 9,
     title: 'Fry MoMo',
     category: 'snacks',
     subCategory: 'momo',
@@ -82,7 +82,7 @@ const menu = [
 
 
   {
-    id: 11,
+    id: 10,
     title: 'Chowmein',
     category: 'snacks',
     subCategory: 'chowmein',
@@ -92,7 +92,7 @@ const menu = [
 
 
   {
-    id: 12,
+    id: 11,
     title: 'Fry Rice',
     category: 'snacks',
     subCategory: 'fry rice',
@@ -100,7 +100,7 @@ const menu = [
     desc: `Veg Fry Rice: Rs 100,,Chicken Fry Rice: Rs 130,, Egg Fry Rice: Rs 130,, Mix Fry Rice: Rs 150`,
   },
   {
-    id: 16,
+    id: 12,
     title: 'Wai Wai Sadeko',
     category: 'snacks',
     subCategory: 'wai wai',
@@ -108,7 +108,7 @@ const menu = [
     desc: null,
   },
   {
-    id: 17,
+    id: 13,
     title: 'Wai Wai Soup',
     category: 'snacks',
     subCategory: 'wai wai',
@@ -118,7 +118,7 @@ const menu = [
 
 
   {
-    id: 18,
+    id: 14,
     title: 'Fried Chicken',
     category: 'snacks',
     subCategory: 'fried chicken',
@@ -126,7 +126,7 @@ const menu = [
     desc: null,
   },
   {
-    id: 19,
+    id: 15,
     title: 'Pasta',
     category: 'snacks',
     subCategory: 'pasta',
@@ -136,7 +136,7 @@ const menu = [
 
 
   {
-    id: 20,
+    id: 16,
     title: 'Thukpa',
     category: 'snacks',
     subCategory: 'thukpa',
@@ -144,7 +144,7 @@ const menu = [
     desc: `Veg Thukpa: Rs 100,,Chicken Thukpa: Rs 130,,Mix Thukpa: Rs 150`,
   },
   {
-    id: 23,
+    id: 17,
     title: 'Sunday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
@@ -152,7 +152,7 @@ const menu = [
     desc: `Chicken Lachachi: Rs 200`,
   },
   {
-    id: 24,
+    id: 18,
     title: 'Monday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
@@ -160,7 +160,7 @@ const menu = [
     desc: `Chicken Biryani: Rs 200`,
   },
   {
-    id: 25,
+    id: 19,
     title: 'Tuesday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
@@ -168,7 +168,7 @@ const menu = [
     desc: `Chicken Shawarma: Rs 200`,
   },
   {
-    id: 26,
+    id: 20,
     title: 'Wednesday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
@@ -176,7 +176,7 @@ const menu = [
     desc: `Chicken Chopsey: Rs 200`,
   },
   {
-    id: 27,
+    id: 21,
     title: 'Thursday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
@@ -184,7 +184,7 @@ const menu = [
     desc: `Chicken Biryani: Rs 200`,
   },
   {
-    id: 28,
+    id: 22,
     title: 'Friday',
     category: `Today's Special`,
     subCategory: 'Daily Special',
