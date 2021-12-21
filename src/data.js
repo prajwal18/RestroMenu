@@ -25,26 +25,15 @@ const menu = [
     desc: `Bread, Boiled egg, Sausage, fruit, Aloo, Tea`,
   },
 
-
-
-
-
   {
     id: 4,
-    title: 'Veg Thali Set',
+    title: 'Thali Set',
     subCategory: 'thali set',
     category: 'lunch',
-    price: 120,
-    desc: null,
+    price: null,
+    desc: `Veg Thali Set: Rs 120,, Chicken Thali Set: Rs 180`,
   },
-  {
-    id: 5,
-    title: 'Chicken Thali set',
-    category: 'lunch',
-    subCategory: 'thali set',
-    price: 180,
-    desc: null,
-  },
+ 
   {
     id: 6,
     title: 'Double Masala Omelette',
@@ -104,38 +93,12 @@ const menu = [
 
   {
     id: 12,
-    title: 'Chicken fry Rice',
+    title: 'Fry Rice',
     category: 'snacks',
     subCategory: 'fry rice',
-    price: 130,
-    desc: ``,
+    price: null,
+    desc: `Veg Fry Rice: Rs 100,,Chicken Fry Rice: Rs 130,, Egg Fry Rice: Rs 130,, Mix Fry Rice: Rs 150`,
   },
-  {
-    id: 13,
-    title: 'Mix Chicken fry Rice',
-    category: 'snacks',
-    subCategory: 'fry rice',
-    price: 150,
-    desc: null,
-  },
-  {
-    id: 14,
-    title: 'Egg Chicken fry Rice',
-    category: 'snacks',
-    subCategory: 'fry rice',
-    price: 130,
-    desc: null,
-  },
-  {
-    id: 15,
-    title: 'Veg Chicken fry Rice',
-    category: 'snacks',
-    subCategory: 'fry rice',
-    price: 100,
-    desc: null,
-  },
-
-
   {
     id: 16,
     title: 'Wai Wai Sadeko',
@@ -174,27 +137,11 @@ const menu = [
 
   {
     id: 20,
-    title: 'Chicken Thukpa',
+    title: 'Thukpa',
     category: 'snacks',
     subCategory: 'thukpa',
-    price: 130,
-    desc: null,
-  },
-  {
-    id: 21,
-    title: 'Veg Chicken Thukpa',
-    category: 'snacks',
-    subCategory: 'thukpa',
-    price: 100,
-    desc: null,
-  },
-  {
-    id: 22,
-    title: 'Mix Chicken Thukpa',
-    category: 'snacks',
-    subCategory: 'thukpa',
-    price: 150,
-    desc: null,
+    price: null,
+    desc: `Veg Thukpa: Rs 100,,Chicken Thukpa: Rs 130,,Mix Thukpa: Rs 150`,
   },
   {
     id: 23,
@@ -202,7 +149,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken Lachachi: Rs 200,`,
+    desc: `Chicken Lachachi: Rs 200`,
   },
   {
     id: 24,
@@ -226,7 +173,7 @@ const menu = [
     category: `Today's Special`,
     subCategory: 'Daily Special',
     price: null,
-    desc: `Chicken Chopsey: Rs 180`,
+    desc: `Chicken Chopsey: Rs 200`,
   },
   {
     id: 27,
